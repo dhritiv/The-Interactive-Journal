@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Mood Tracker</title>
+    <link href="moodtracker.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1>The Interactive Journal</h1>
+    
+    <div class="navcontainer">
+    <ul class="navwrapper">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="dailyjournal.html">Daily Journal</a></li>
+    <li><a href="planner.html">Weekly Planner</a></li>
+    <li><a href="moodtracker.html">Mood Tracker</a></li>
+    <li><a href="getinvolved.html">Get Involved</a></li>
+    </ul>
+    </div>
+    
+    <h2>Mood Tracker</h2>
+    <script src="script.js"></script>
+    <div>
+      <label>How do you feel right now on a scale of 1 to 10?</label>
+      <select name="mood">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        </select>
+    </div>
+    <br>
+    <div>
+      <label>Select the feelings that pertain to how you felt today:</label>
+      <br>
+      <input type="checkbox" id="feeling1" name="feeling1" value="Happy">
+      <label for="feeling1">Happy</label><br>
+       <input type="checkbox" id="feeling2" name="feeling2" value="Sad">
+      <label for="feeling2">Sad</label><br>
+       <input type="checkbox" id="feeling3" name="feeling3" value="Frustrated">
+      <label for="feeling3">Frustrated</label><br>
+       <input type="checkbox" id="feeling4" name="feeling4" value="Silly">
+      <label for="feeling4">Silly</label><br>
+       <input type="checkbox" id="feeling5" name="feeling5" value="Excited">
+      <label for="feeling5">Excited</label><br>
+       <input type="checkbox" id="feeling6" name="feeling6" value="Nervous">
+      <label for="Nervous">Nervous</label><br>
+      </form>
+      </div>
+      </br>
+    <div>
+    <label>How stressed were you today?</label>
+    <form>
+      <input type="radio" id="not at all" name="stress_level" value="Not at all">
+      <label for="not at all">Not at all</label><br>
+
+      <input type="radio" id="little" name="stress_level" value="little">
+      <label for="little">Less than usual</label><br>
+
+      <input type="radio" id="medium" name="stress_level" value="medium">
+      <label for="medium">Struggled a little, but manageable</label><br>
+
+      <input type="radio" id="high" name="stress_level" value="high">
+      <label for="high">More than usual</label><br>
+
+      <input type="radio" id="highest" name="stress_level" value="highest">
+      <label for="highest">Struggled a lot</label><br>
+    </form></br>
+    <label for="Stressform">What stressed you out? How will you improve for tomorrow?</label></br>
+    <textarea id="Stressform" name="Stressformanswer" rows="5" cols="50">
+    </textarea></br>
+   </div> 
+
+<div>
+  <h2>Gratitude</h2>
+  <label for="gratitude">Take the time to write down at least 3 things that you are grateful for. Expressing gratitude is shown to improve your mood!</label></br>
+    <textarea id="Stressform" name="Stressformanswer" rows="5" cols="50">
+    </textarea></br>
+  </div>
+
+  
+
+  </body>
+</html>
